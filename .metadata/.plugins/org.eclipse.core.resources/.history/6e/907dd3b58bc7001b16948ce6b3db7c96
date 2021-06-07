@@ -1,8 +1,0 @@
-main: me.crazymoose.HelloWorld.Main
-name: HelloWorld
-version: 1.0.0
-author: Crazymoose
-api: 1.16.5
-
-commands:
-    Hello:
