@@ -1,0 +1,9 @@
+main: me.crazymoose.Doctor.Main
+name: Doctor
+version: 1.0.0
+author: crazymoose77756
+api: 1.16.5
+
+commands:
+    Doctor:
+       description: "Heal me"
