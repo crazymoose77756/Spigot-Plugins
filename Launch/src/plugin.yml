@@ -1,0 +1,11 @@
+main: me.crazymoose.Launch.Main
+name: Launch
+version: 1.0.0
+author: crazymoose
+api: 1.16.5
+
+commands:
+  Launch:
+    aliases: lch
+
+
