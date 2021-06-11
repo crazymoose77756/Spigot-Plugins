@@ -1,0 +1,10 @@
+main: me.crazymoose.GodBoots.Main
+name: GodBoots
+version: 2.0.0
+author: crazymoose
+api: 1.16.5
+api-version: 1.13
+
+commands:
+  GodBoots:
+    description: "Boots"
