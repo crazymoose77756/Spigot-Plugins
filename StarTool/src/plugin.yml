@@ -1,0 +1,10 @@
+main: me.crazymoose.StarTool.Main
+name: StarTool
+version: 1.0.0
+author: crazymoose
+api: 1.16.5
+api-version: 1.13
+
+commands:
+  StarTool:
+    description: "Trident but good"
