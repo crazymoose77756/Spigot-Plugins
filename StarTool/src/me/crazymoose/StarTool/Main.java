@@ -63,7 +63,7 @@ public class Main extends JavaPlugin implements Listener {
 		ItemStack trident = new ItemStack(Material.TRIDENT);
 		ItemMeta meta = trident.getItemMeta();
 		
-		meta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Boots of Leaping");
+		meta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Star Tool");
 		List<String> lore = new ArrayList<String>();
 		lore.add("");
 		lore.add(ChatColor.translateAlternateColorCodes('&', "&7(Right Click) &a&oSpawn minions"));

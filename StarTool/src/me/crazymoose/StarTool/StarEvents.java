@@ -6,7 +6,7 @@ import java.util.List;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
-import org.bukkit.entity.Fireball;
+import org.bukkit.entity.LargeFireball;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -37,7 +37,7 @@ public class StarEvents implements Listener {
 					}
 					
 					if (event.getAction() == Action.LEFT_CLICK_AIR) {
-						player.launchProjectile(Fireball.class);
+						player.launchProjectile(LargeFireball.class);
 					}
 				}
 			if (list.contains(event.getPlayer().getName())) {
@@ -55,7 +55,7 @@ public class StarEvents implements Listener {
 						loc.setY(loc.getY() + 1);
 						
 						for(int i =1; i < 4 ; i++) {
-							loc.getWorld().spawnEntity(loc, EntityType.DROWNED);
+							loc.getWorld().spawnEntity(loc, EntityType.PRIMED_TNT);
 							loc.setX(loc.getX() + i);
 						}
 					}
