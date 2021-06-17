@@ -1,0 +1,9 @@
+main: me.crazymoose.Gamble.Main
+name: Gamble
+version: 1.0.1
+author: crazymoose
+api-version: 1.13
+api: 1.16.5
+
+commands:
+  gamble:
