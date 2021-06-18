@@ -1,0 +1,8 @@
+main: me.crazymoose.Skull.Main
+name: Skull
+version: 1.2.0
+author: crazymoose
+api: 1.16.5
+
+commands:
+  Skull:
