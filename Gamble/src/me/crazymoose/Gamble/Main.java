@@ -47,8 +47,8 @@ public class Main extends JavaPlugin implements Listener {
 			Player player = (Player) sender;
 			ItemStack fee = new ItemStack(Material.DIAMOND);
 			fee.setAmount(3);
-			if (player.getInventory().getItemInMainHand().isSimilar(fee)) {
-				player.getInventory().removeItem(fee);
+			if (player.getInventory().getItemInMainHand().getType().equals(Material.DIAMOND) &&
+					player.getInventory().getItemInMainHand().getAmount() >= 3) {
 				//spin GUI
 				spin(player);
 				return true;
