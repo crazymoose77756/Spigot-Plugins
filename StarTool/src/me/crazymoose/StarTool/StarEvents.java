@@ -55,7 +55,8 @@ public class StarEvents implements Listener {
 						loc.setY(loc.getY() + 1);
 						
 						for(int i =1; i < 4 ; i++) {
-							loc.getWorld().spawnEntity(loc, EntityType.PRIMED_TNT);
+							loc.getWorld().strikeLightning(loc);
+							// spawnEntity(loc, EntityType.);
 							loc.setX(loc.getX() + i);
 						}
 					}
