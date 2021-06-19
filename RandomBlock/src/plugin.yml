@@ -1,0 +1,8 @@
+main: me.crazymoose.RandomBlock.Main
+name: RandomBlock
+author: crazymoose
+version: 1.0.1
+api-version: 1.13
+
+commands:
+  RandomBlock:

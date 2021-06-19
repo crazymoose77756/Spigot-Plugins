@@ -1,0 +1,27 @@
+reload:
+  message: 
+  - "&a&lReloaded RandomBlock!"
+  -  "&a&lHave fun!"
+  - ""
+
+blocks:
+  DIRT:
+  - DIRT
+  - DIRT
+  - DIRT
+  - STONE
+  - GRASS
+  - LAPIS_BLOCK
+  - IRON_INGOT
+  SAND:
+  - IRON_NUGGET
+  - ELYTRA
+  STONE:
+  - DIAMOND_ORE
+  - STONE
+  - STONE
+  - STONE
+  - STONE
+  - STONE
+  - COAL_ORE
+
