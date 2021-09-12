@@ -3,5 +3,6 @@
 
 #Intellij
 .idea/
+.out/
 
 #Hello
