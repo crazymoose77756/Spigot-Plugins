@@ -1,4 +1,7 @@
 #Eclipse
 .metadata/
 
+#Intellij
+.idea/
+
 #Hello
