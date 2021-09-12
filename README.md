@@ -1,0 +1,3 @@
+# Spigot-Plugins
+
+Plugin Practice
