@@ -1,8 +1,0 @@
-main: me.crazymoose.Stats.Main
-name: Stats
-version: 1.0
-author: Crazymoose
-api: 1.16.5
-
-commands:
-  mystats:

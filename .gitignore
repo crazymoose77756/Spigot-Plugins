@@ -4,6 +4,6 @@
 #Intellij
 .idea/
 out/**
-
+/out/
 
 #Hello
