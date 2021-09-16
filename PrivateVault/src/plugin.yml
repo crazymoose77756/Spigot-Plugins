@@ -1,0 +1,7 @@
+main: me.crazymoose.PrivateVault.Main
+name: PrivateVault
+version: 1.0
+author: Crazymoose
+
+commands:
+  pv:
